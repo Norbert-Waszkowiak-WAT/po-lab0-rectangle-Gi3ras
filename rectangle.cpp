@@ -1,5 +1,35 @@
 #include <iostream>
-
+using namespace std;
 class Rectangle {
+private:
+    double width;
+    double height;
+    public:
+    Rectangle(double w,double h)
+    : width(w), height(h) {}
+void setWidth(double w){
+    width =w;
+}
+void setHeight(double h){
+height=h;
+}
+double getwidth{}cont{
+    return width;
+}
+double getHeight{}cont{
+    return height;
+}
+double area()const{
+    return width*height;
+}
+double periemeter()const{
+    return 2(*width+height);
+}
+void display()const{
+cout<<"rectlange:"<<width<<"x"<<height<<endl;
+cout<<"Area: "<<area()<<endl;
+cout<<"pariemeter: "<<
 
+
+}
 };
