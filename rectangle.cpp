@@ -13,10 +13,10 @@ void setWidth(double w){
 void setHeight(double h){
 height=h;
 }
-double getwidth{}cont{
+double getwidth()const{
     return width;
 }
-double getHeight{}cont{
+double getHeight()const{
     return height;
 }
 double area()const{
